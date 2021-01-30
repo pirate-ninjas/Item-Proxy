@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  rei:
+    build: .
+    ports:
+      - '1313:1313'
